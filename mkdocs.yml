@@ -1,0 +1,52 @@
+site_name: "Kudu 1.4.0 中文文档"
+site_url: http://kudu.apachecn.org
+site_description: "Kudu 1.4.0 中文文档"
+site_author: ApacheCN Team
+
+repo_url: https://github.com/apachecn/kudu-doc-zh
+repo_name: kudu-doc-zh
+
+use_directory_urls: true
+nav:
+- "Kudu 1.4.0 中文文档" : "README.md"
+- "介绍 Kudu" : "1.md"
+- "Kudu 入门指南" : "2.md"
+- "安装指南" : "3.md"
+- "配置 Kudu" : "4.md"
+- "Kudu 集成 Apache Impala" : "5.md"
+- "管理 Kudu" : "6.md"
+- "Kudu 故障排除" : "7.md"
+- "使用 Kudu 开发应用程序" : "8.md"
+- "Kudu Schema Design ( 模式设计 )" : "9.md"
+- "Kudu Security ( 安全 )" : "10.md"
+- "Kudu Transaction Semantics ( 事务语义 )" : "11.md"
+- "后台维护任务" : "12.md"
+- "Kudu 配置参考" : "13.md"
+- "Kudu 命令行工具参考" : "14.md"
+- "已知的问题和限制" : "15.md"
+- "贡献于 Kudu" : "16.md"
+- "Export Control Notice ( 出口管制通知 )" : "17.md"
+
+theme:
+  name: mkdocs
+  custom_dir: 'custom_theme/'
+  
+  # 404 page
+  static_templates:
+    - 404.md
+  
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+  
+  # Default values, taken from mkdocs_theme.yml
+  language: 'zh'
+  feature:
+    tabs: true
+  palette:
+    primary: 'Indigo'
+    accent: 'Indigo'
+  font: false
+  favicon: assets/images/favicon.png
+  logo: 
+    icon: "\uE80C"
